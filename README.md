@@ -2,9 +2,19 @@
 
 ## Overview
 
-The **Lok Sabha 2024 Constituency Intelligence Dashboard** is a Power BI project that analyzes all **543 parliamentary constituencies** from the 2024 Indian General Election.
+The Lok Sabha 2024 Constituency Intelligence Dashboard analyzes all 543 parliamentary constituencies from the 2024 Indian General Election.
 
-The project transforms raw election results into actionable electoral intelligence by measuring competitiveness, identifying battleground constituencies, assessing party exposure, and analyzing victory-margin patterns across India.
+---
+
+## Dashboard Preview
+
+### Page 1 – National Election Overview
+
+![National Election Overview](Images/Page1_National_Overview.png)
+
+### Page 2 – Battleground Intelligence Dashboard
+
+![Battleground Intelligence Dashboard](Images/Page2_Battleground_Intelligence.png)
 
 ---
 
@@ -15,31 +25,14 @@ The project transforms raw election results into actionable electoral intelligen
 - Identify highly competitive and battleground constituencies.
 - Assess state-wise concentration of electoral risk.
 - Evaluate party exposure to vulnerable constituencies.
-- Develop an analytical dashboard for election intelligence and decision support.
 
 ---
 
 ## Tools & Technologies
 
-- **Microsoft Excel** – Data Cleaning & Feature Engineering
-- **Power BI** – Data Visualization & Dashboard Development
-- **DAX** – KPI Calculations & Analytical Measures
-
----
-
-## Dataset
-
-- General Election 2024 Results
-- Total Constituencies Analyzed: **543**
-- Total Political Parties: **42**
-
-### Key Derived Metrics
-
-- Victory Margin
-- Victory Margin %
-- Electoral Competitiveness Category
-- Battleground Flag
-- Margin Ranking
+- Microsoft Excel
+- Power BI
+- DAX
 
 ---
 
@@ -47,7 +40,7 @@ The project transforms raw election results into actionable electoral intelligen
 
 ### Page 1 – National Election Overview
 
-Provides a macro-level view of the election.
+![National Election Overview](Images/Page1_National_Overview.png)
 
 #### Key KPIs
 
@@ -66,7 +59,7 @@ Provides a macro-level view of the election.
 
 ### Page 2 – Battleground Intelligence Dashboard
 
-Focuses on electoral risk and vulnerability analysis.
+![Battleground Intelligence Dashboard](Images/Page2_Battleground_Intelligence.png)
 
 #### Key KPIs
 
@@ -97,35 +90,11 @@ Focuses on electoral risk and vulnerability analysis.
 
 ## Key Insights
 
-- BJP emerged as the largest party with **240 seats**.
-- Uttar Pradesh accounts for the highest number of Lok Sabha constituencies (**80**).
-- **256 constituencies** were classified as battleground seats.
-- Electoral competitiveness remains geographically concentrated in a few key states.
-- Several constituencies were decided by margins below **1%**, indicating significant electoral vulnerability.
-
----
-
-## Repository Contents
-
-```text
-LokSabha2024-Constituency-Intelligence-Dashboard
-│
-├── README.md
-├── LokSabha2024_Constituency_Intelligence_Dashboard.pbix
-├── LokSabha2024_Cleaned_Dataset.xlsx
-│
-└── Images
-    ├── Page1_National_Overview.png
-    └── Page2_Battleground_Intelligence.png
-```
-
-## Project Highlights
-
-- Analyzed 543 Lok Sabha constituencies across India.
-- Built a two-page Power BI dashboard for election intelligence.
-- Developed custom competitiveness and battleground classification logic.
-- Created state-level and party-level electoral risk analysis.
-- Applied analytical storytelling techniques to convert election data into actionable insights.
+- BJP emerged as the largest party with 240 seats.
+- Uttar Pradesh has the highest number of Lok Sabha constituencies (80).
+- 256 constituencies were classified as battleground seats.
+- Electoral competitiveness remains concentrated in key states.
+- Several constituencies were decided by margins below 1%.
 
 ---
 
@@ -133,8 +102,4 @@ LokSabha2024-Constituency-Intelligence-Dashboard
 
 **Saharsh Deshmukh**
 
-Electronics & Telecommunication Engineer | Data Analytics Enthusiast
-
-Skills: Power BI, Excel, SQL, DAX, Data Visualization, Political Analytics
-
-GitHub: https://github.com/saharshdeshmukh
+Power BI | Excel | SQL | DAX | Data Analytics
